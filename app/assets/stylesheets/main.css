@@ -1,0 +1,49 @@
+body {
+  background-color: #404040;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.download-link {
+  background-color: #9f9f9f;
+  border-color: #ff9f00 #aa6a00 #aa6a00 #ff9f00;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  color: #1f1f1f;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color .25s;
+}
+
+.download-link:hover {
+  background-color: #c0c0c0;
+}
+
+.download-link > .larger {
+  font-size: 300%;
+}
+
+iframe {
+  box-shadow: 0 0 40px 5px #9f9f9f;
+  margin: 50px 0;
+}
+
+footer {
+  bottom: 25px;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+
+.email-link {
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
